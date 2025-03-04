@@ -1,4 +1,4 @@
-Semana 4 de Fase 2 de Jóvenes A Programar: En este semana se enfoca en el aprendizaje del DOM y su manipulación. <br>
+<h1>Semana 4 de Fase 2 de Jóvenes A Programar: En este semana se enfoca en el aprendizaje del DOM y su manipulación.</h1> <br>
 
 <strong> Practica del DOM con JavaScript -> </strong> El desafió consiste en cumplir los siguientes puntos: <br>
 
