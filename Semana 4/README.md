@@ -31,4 +31,4 @@ A partir de la página web adjunta a la tarea, utilizando lo aprendido en el te�
 
 A partir de la página web adjunta a la tarea, debes lograr que al momento de cargar la página, muestre la información que se encuentra en el array almacenado en la constante "DATA", la misma deberá desplegar un párrafo por cada elemento del array dentro del div de id "container".
 
-<strong> El resultado es el siguiente: </strong> <img src="Desafío Sincrónico 2/resultado.jpg"><br>
+<strong> El resultado es el siguiente: </strong> <br> <img src="Desafío Sincrónico 2/resultado.jpg"><br>
