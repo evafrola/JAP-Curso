@@ -11,4 +11,12 @@ A partir de la página web adjunta a la tarea, utilizando las funciones DOM y mo
     <li>Número de enlaces del tercer párrafo.</li>
 </ol>
 
-<strong> El resultado es el siguiente: </strong> <img src="Practica_DOM/resultados1.jpg">
+<strong> El resultado es el siguiente: </strong> <img src="Practica_DOM/resultados1.jpg"> <br>
+
+<strong> Trabajando con JavaScript -> </strong><br>
+
+El sitio que adjuntamos debía mostrar un listado que trae desde el servidor, pero nuestros desarrolladores estaban en un mal día y cometieron varios errores…
+
+Trabajando en grupo (Estoy re-haciendo los trabajos de forma individual), deberán localizar los errores que se encuentran en los archivos init.js y listado.js, y corregirlos.
+
+<strong> El resultado es el siguiente: </strong> <img src="Practica_js/resultado.jpg">
