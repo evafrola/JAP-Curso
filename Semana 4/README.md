@@ -19,4 +19,8 @@ El sitio que adjuntamos debía mostrar un listado que trae desde el servidor, pe
 
 Trabajando en grupo (Estoy re-haciendo los trabajos de forma individual), deberán localizar los errores que se encuentran en los archivos init.js y listado.js, y corregirlos.
 
-<strong> El resultado es el siguiente: </strong> <img src="Practica_js/resultado.jpg">
+<strong> El resultado es el siguiente: </strong> <img src="Practica_js/resultado.jpg"><br>
+
+<strong> Desafió Sincrónico 1-> </strong><br>
+
+A partir de la página web adjunta a la tarea, utilizando lo aprendido en el teórico de DOM y modificando únicamente el archivo js/script.js, agrega el código necesario para que al dar click en el botón "Resaltar!" se aplique la clase "highlight" al párrafo de id "lorem". <br>
