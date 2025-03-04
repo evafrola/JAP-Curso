@@ -23,8 +23,12 @@ Trabajando en grupo (Estoy re-haciendo los trabajos de forma individual), deber�
 
 <strong> Desafió Sincrónico 1-> </strong><br>
 
-A partir de la página web adjunta a la tarea, utilizando lo aprendido en el teórico de DOM y modificando únicamente el archivo js/script.js, agrega el código necesario para que al dar click en el botón "Resaltar!" se aplique la clase "highlight" al párrafo de id "lorem". <br>
+A partir de la página web adjunta a la tarea, utilizando lo aprendido en el teórico de DOM y modificando únicamente el archivo js/script.js, agrega el código necesario para que al dar click en el botón "Resaltar!" se aplique la clase "highlight" al párrafo de id "lorem".
+
+<strong> El resultado es el siguiente: </strong> <img src="Desafío Sincrónico 1/resultadoFinal.jpg"><br>
 
 <strong> Desafió Sincrónico 2-> </strong><br>
 
-A partir de la página web adjunta a la tarea, debes lograr que al momento de cargar la página, muestre la información que se encuentra en el array almacenado en la constante "DATA", la misma deberá desplegar un párrafo por cada elemento del array dentro del div de id "container".<br>
+A partir de la página web adjunta a la tarea, debes lograr que al momento de cargar la página, muestre la información que se encuentra en el array almacenado en la constante "DATA", la misma deberá desplegar un párrafo por cada elemento del array dentro del div de id "container".
+
+<strong> El resultado es el siguiente: </strong> <img src="Desafío Sincrónico 2/resultado.jpg"><br>
