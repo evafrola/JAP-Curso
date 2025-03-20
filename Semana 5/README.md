@@ -4,4 +4,5 @@
 
 A partir de la página web adjunta a la tarea, agrega el código necesario para que al dar click en el botón "Elimina el último párrafo ingresado" se borre el último párrafo ingresado: <br>
 
-<strong> El resultado es el siguiente: </strong> <img src="Desafío DOM/resultado Final.jpg"> <br>
+<strong> El resultado es el siguiente: </strong> <br>
+<img src="Desafío DOM/resultado Final.jpg"> <br>
