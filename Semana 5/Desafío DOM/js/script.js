@@ -16,3 +16,7 @@ buttonAdd.addEventListener("click", function () {
 });
 
 // Escribe el código a continuación
+
+buttonRemove.addEventListener("click", ()=> {
+  container.removeChild(container.lastChild);
+});
