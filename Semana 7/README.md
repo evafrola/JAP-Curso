@@ -20,4 +20,4 @@
 <p>Jap dara un archivo con los elementos básicos. Luego se deberá modificar el código que se encuentra en el archivo js/script.js para que al momento de cargar la página, muestre nombre y apellido de los estudiantes cargados en json/data.json.</p>
 
 <p><b>El resultado es el siguiente:</b></p>
-Trabajo no realizado aun
+<img src="Fetch_Json/prueba1.jpg">
