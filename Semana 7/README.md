@@ -12,6 +12,5 @@
 <strong> El resultado es el siguiente: </strong> <br>
 <img src="tallerEventos/prueba1.jpg">
 <p>La imagen de arriba es cuando se da click en el div</p>
-<br>
 <img src="tallerEventos/prueba2.jpg">
 <p>La imagen de arriba es cuando se da click en el botón</p>
