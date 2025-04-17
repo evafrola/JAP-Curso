@@ -1,4 +1,5 @@
-<h1>Semana 7 de Fase 2 de Jóvenes A Programar: Se ve temas de manipulación del DOM y fetch</h1> <br>
+<h1>Semana 7 de Fase 2 de Jóvenes A Programar</h1> 
+<p>Se ve temas de manipulación del DOM y fetch</p>
 
 <h2> Taller de Eventos</h2> 
 <p>El desafió consiste en cumplir los siguientes puntos:</p>
