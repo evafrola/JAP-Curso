@@ -10,11 +10,10 @@
 </ol> <br>
 
 <p><b> El resultado es el siguiente: </b></p>
-<img src="tallerEventos/prueba1.jpg"><br>
-La imagen de arriba es cuando se da click en el div
-<br>
-<img src="tallerEventos/prueba2.jpg"><br>
-La imagen de arriba es cuando se da click en el botón
+<img src="tallerEventos/prueba1.jpg">
+<p>La imagen de arriba es cuando se da click en el div</p>
+<img src="tallerEventos/prueba2.jpg">
+<p>La imagen de arriba es cuando se da click en el botón</p>
 
 <h2>Taller Fetch_Json</h2>
 <p>Jap dara un archivo con los elementos básicos. Luego se deberá modificar el código que se encuentra en el archivo js/script.js para que al momento de cargar la página, muestre nombre y apellido de los estudiantes cargados en json/data.json.</p>
