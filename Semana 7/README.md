@@ -21,3 +21,16 @@
 
 <p><b>El resultado es el siguiente:</b></p>
 <img src="Fetch_Json/prueba1.jpg">
+
+<h2>Taller Formulario de registro</h2>
+<p>No se realizará el envío de los datos, estaremos trabajando solo a nivel de cliente. Adjunta encontrarán una página web que consta de un formulario de registro.
+Deberán incluirle las validaciones que se listan a continuación:</p>
+<ul>
+    <li>Ningún campo puede estar vacío.</li>
+    <li>La contraseña debe tener al menos 6 caracteres.</li>
+    <li>Los datos ingresados en "Contraseña" y "Repetir contraseña" deben ser iguales.</li>
+    <li>Se debe haber marcado el checkbox "Acepto los términos y condiciones del servicio."</li>
+</ul>
+<p>En caso de que los datos ingresados por el usuario cumplan con los criterios establecidos, se deberá llamar a la función showAlertSuccess(), y en caso contrario a la función showAlertError() (ambas funciones ya se encuentran declaradas y se encargan de informar al usuario sobre el resultado).</p>
+<p><b>El resultado es el siguiente:</b></p>
+Trabajo no realizado aun
