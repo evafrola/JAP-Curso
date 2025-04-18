@@ -33,4 +33,5 @@ Deberán incluirle las validaciones que se listan a continuación:</p>
 </ul>
 <p>En caso de que los datos ingresados por el usuario cumplan con los criterios establecidos, se deberá llamar a la función showAlertSuccess(), y en caso contrario a la función showAlertError() (ambas funciones ya se encuentran declaradas y se encargan de informar al usuario sobre el resultado).</p>
 <p><b>El resultado es el siguiente:</b></p>
-Trabajo no realizado aun
+<img src="tallerRegistro/prueba1.jpg">
+<img src="tallerRegistro/prueba2.jpg">
