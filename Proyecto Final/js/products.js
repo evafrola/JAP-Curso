@@ -26,6 +26,7 @@ function showProductList() {
     document.getElementById("productsContainer").innerHTML = htmlContent;
     }
 
+//Evento que llama al Fetch ejecutado en init pero para mostrar los valores guardados en products, siempre y cuando el status este OK
 document.addEventListener("DOMContentLoaded", ()=>{
     getJSONData(PRODUCTS_URL + PRODUCT_NUMBER + EXT_TYPE)
     .then((resultObj) => {
