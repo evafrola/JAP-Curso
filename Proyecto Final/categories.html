@@ -3,68 +3,86 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>eMercado - Todo lo que busques está aquí</title>
-
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, height=device-height , initial-scale=1">
+  <title>JAP Market - Todo lo que busques está aquí</title>
   <link href="css/output.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Comienzo de la barra de navegación -->
-    <div class="navbar bg-base-100 shadow-sm">
-      <div class="flex-1">
-        <a class="btn btn-ghost text-xl" href="index.html">JAP Market</a>
-      </div>
-      <div class="flex-1">
-        <a class="btn btn-ghost text-xl" href="categories.html">Categorías</a>
-      </div>
-      <div class="flex-1">
-        <a class="btn btn-ghost text-xl" href="sell.html">Vender</a>
-      </div>
-      <div class="flex-none">
-        <div class="dropdown dropdown-end">
-          <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-            <div class="indicator">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /> </svg>
-              <span class="badge badge-sm indicator-item">8</span>
-            </div>
-          </div>
-          <div tabindex="0" class="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-52 shadow">
-            <div class="card-body">
-              <span class="text-lg font-bold">Función en desarrollo</span>
-              <span class="text-info"></span>
-              <div class="card-actions">
-                <button class="btn btn-primary btn-block"></button>
-              </div>
-            </div>
-          </div>
+  <!-- Comienzo de la barra de navegación para movil -->
+  <div class="navbar bg-base-100 shadow-sm md:hidden" id="navbar_movil">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /> </svg>
         </div>
-        <div class="dropdown dropdown-end">
-          <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
-            <div class="w-10 rounded-full">
-              <img
-                alt="Tailwind CSS Navbar component"
-                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-            </div>
-          </div>
-          <ul
-            tabindex="0"
-            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-            <li>
-              <a class="justify-between">
-                Profile
-                <span class="badge">New</span>
-              </a>
-            </li>
-            <li><a>Settings</a></li>
-            <li><a>Logout</a></li>
-          </ul>
-        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+          <li><a href="categories.html">Categorias</a></li>
+          <li><a href="sell.html">Vender</a></li>
+          <li><a href="my-profile.html">Perfil</a></li>
+        </ul>
       </div>
     </div>
-    <!-- Termina la barra de navegación -->
+    <div class="navbar-center">
+      <a class="btn btn-ghost text-xl" href="index.html">JAP Market</a>
+    </div>
+    <div class="navbar-end">
+      <button class="btn btn-ghost btn-circle">
+        <div class="indicator">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /> </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+    <!-- Final de la barra de navegación para movil -->
+
+  <!-- Comienzo de la barra de navegación -->
+  <div class="bg-base-100 shadow-sm hidden md:navbar" id="navbar_pc" >
+    <div class="flex-1">
+      <a class="btn btn-ghost text-xl" href="index.html">JAP Market</a>
+    </div>
+    <div class="flex-1">
+      <a class="btn btn-ghost text-xl" href="categories.html">Categorías</a>
+    </div>
+    <div class="flex-1">
+      <a class="btn btn-ghost text-xl" href="sell.html">Vender</a>
+    </div>
+    <div class="flex-none">
+      <div class="dropdown dropdown-end">
+        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+          <div class="indicator">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /> </svg>
+            <span class="badge badge-sm indicator-item">8</span>
+          </div>
+        </div>
+        <div tabindex="0" class="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-52 shadow">
+          <div class="card-body">
+            <span class="text-lg font-bold">Función en desarrollo</span>
+            <span class="text-info"></span>
+            <div class="card-actions">
+              <button class="btn btn-primary btn-block"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dropdown dropdown-end">
+        <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+          <div class="w-10 rounded-full">
+            <img alt="Tailwind CSS Navbar component" src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+          </div>
+        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+          <li>
+            <a class="justify-between" href="my-profile.html"> Perfil</a>
+          </li>
+          <li><a>Cerrar Sesión</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Termina la barra de navegación -->
+
+
   <main class="pb-5">
     <div class="text-center p-4">
       <h2>Categorías</h2>
