@@ -1448,6 +1448,9 @@
   .m-1 {
     margin: calc(var(--spacing) * 1);
   }
+  .m-auto {
+    margin: auto;
+  }
   .filter {
     display: flex;
     flex-wrap: wrap;
@@ -1782,6 +1785,10 @@
   .h-svh {
     height: 100svh;
   }
+  .btn-wide {
+    width: 100%;
+    max-width: calc(0.25rem * 64);
+  }
   .btn-block {
     width: 100%;
   }
@@ -1886,6 +1893,15 @@
   .flex-wrap {
     flex-wrap: wrap;
   }
+  .place-content-center {
+    place-content: center;
+  }
+  .place-items-center {
+    place-items: center;
+  }
+  .content-center {
+    align-content: center;
+  }
   .items-center {
     align-items: center;
   }
@@ -1931,6 +1947,9 @@
   }
   .object-contain {
     object-fit: contain;
+  }
+  .object-center {
+    object-position: center;
   }
   .p-0 {
     padding: calc(var(--spacing) * 0);
@@ -2052,10 +2071,38 @@
     --tw-ease: var(--ease-out);
     transition-timing-function: var(--ease-out);
   }
+  .btn-soft {
+    &:not(.btn-active, :hover, :active:focus, :focus-visible, :disabled, [disabled], .btn-disabled) {
+      --btn-shadow: "";
+      --btn-fg: var(--btn-color, var(--color-base-content));
+      --btn-bg: var(--btn-color, var(--color-base-content));
+      @supports (color: color-mix(in lab, red, red)) {
+        --btn-bg: color-mix(
+      in oklab,
+      var(--btn-color, var(--color-base-content)) 8%,
+      var(--color-base-100)
+    );
+      }
+      --btn-border: var(--btn-color, var(--color-base-content));
+      @supports (color: color-mix(in lab, red, red)) {
+        --btn-border: color-mix(
+      in oklab,
+      var(--btn-color, var(--color-base-content)) 10%,
+      var(--color-base-100)
+    );
+      }
+      --btn-noise: none;
+    }
+  }
   .btn-lg {
     --fontsize: 1.125rem;
     --btn-p: 1.25rem;
     --size: calc(var(--size-field, 0.25rem) * 12);
+  }
+  .btn-md {
+    --fontsize: 0.875rem;
+    --btn-p: 1rem;
+    --size: calc(var(--size-field, 0.25rem) * 10);
   }
   .btn-sm {
     --fontsize: 0.75rem;
@@ -2066,9 +2113,17 @@
     --btn-color: var(--color-accent);
     --btn-fg: var(--color-accent-content);
   }
+  .btn-info {
+    --btn-color: var(--color-info);
+    --btn-fg: var(--color-info-content);
+  }
   .btn-primary {
     --btn-color: var(--color-primary);
     --btn-fg: var(--color-primary-content);
+  }
+  .btn-secondary {
+    --btn-color: var(--color-secondary);
+    --btn-fg: var(--color-secondary-content);
   }
   .md\:m-8 {
     @media (width >= 48rem) {
