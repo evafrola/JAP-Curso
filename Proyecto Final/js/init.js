@@ -60,3 +60,10 @@ let getJSONData = function(url){
     changeDocument()
     removeChange()
   })
+
+  //Funcion para cambiar ciertas imágenes en el dark mode
+  function changeImgDarkMode() {
+    if (condition) {
+      
+    }
+  }

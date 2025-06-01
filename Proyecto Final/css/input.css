@@ -2,7 +2,7 @@
 @plugin "daisyui";
 @plugin "daisyui/theme" {
   name: "retro";
-  default: true;
+  default: false;
   prefersdark: false;
   color-scheme: "light";
   --color-base-100: oklch(91.637% 0.034 90.515);
@@ -38,7 +38,7 @@
 @plugin "daisyui/theme" {
   name: "halloween";
   default: false;
-  prefersdark: true;
+  prefersdark: false;
   color-scheme: "dark";
   --color-base-100: oklch(14% 0 0);
   --color-base-200: oklch(20% 0 0);

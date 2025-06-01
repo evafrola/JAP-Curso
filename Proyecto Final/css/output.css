@@ -1786,7 +1786,7 @@
   }
 }
 @layer base {
-  :where(:root),:root:has(input.theme-controller[value=retro]:checked),[data-theme="retro"] {
+  :root:has(input.theme-controller[value=retro]:checked),[data-theme="retro"] {
     color-scheme: light;
     --color-base-100: oklch(91.637% 0.034 90.515);
     --color-base-200: oklch(88.272% 0.049 91.774);
@@ -1816,41 +1816,6 @@
     --border: 1px;
     --depth: 0;
     --noise: 0;
-  }
-}
-@layer base {
-  @media (prefers-color-scheme: dark) {
-    :root {
-      color-scheme: dark;
-      --color-base-100: oklch(14% 0 0);
-      --color-base-200: oklch(20% 0 0);
-      --color-base-300: oklch(26% 0 0);
-      --color-base-content: oklch(97% 0 0);
-      --color-primary: oklch(70% 0.213 47.604);
-      --color-primary-content: oklch(98% 0.016 73.684);
-      --color-secondary: oklch(60% 0.25 292.717);
-      --color-secondary-content: oklch(96% 0.016 293.756);
-      --color-accent: oklch(65% 0.241 354.308);
-      --color-accent-content: oklch(97% 0.014 343.198);
-      --color-neutral: oklch(43% 0 0);
-      --color-neutral-content: oklch(98% 0 0);
-      --color-info: oklch(70% 0.165 254.624);
-      --color-info-content: oklch(28% 0.091 267.935);
-      --color-success: oklch(77% 0.152 181.912);
-      --color-success-content: oklch(27% 0.046 192.524);
-      --color-warning: oklch(82% 0.189 84.429);
-      --color-warning-content: oklch(27% 0.077 45.635);
-      --color-error: oklch(71% 0.202 349.761);
-      --color-error-content: oklch(28% 0.109 3.907);
-      --radius-selector: 0.5rem;
-      --radius-field: 2rem;
-      --radius-box: 0rem;
-      --size-selector: 0.25rem;
-      --size-field: 0.25rem;
-      --border: 1px;
-      --depth: 0;
-      --noise: 1;
-    }
   }
 }
 @layer base {
